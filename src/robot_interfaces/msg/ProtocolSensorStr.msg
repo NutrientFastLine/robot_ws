@@ -1,0 +1,9 @@
+# ProtocolSensorStr message
+uint32  header
+float32 x_speed
+float32 y_speed
+float32 z_speed
+float32 source_voltage
+ProtocolMpu6050Str link_accelerometer
+ProtocolMpu6050Str link_gyroscope
+uint8 end_flag
